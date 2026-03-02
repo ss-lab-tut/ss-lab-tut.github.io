@@ -582,7 +582,8 @@ footer a:hover { color: var(--white); }
   }
 
   .research-item .research-img {
-    max-width: 960px;
+    max-width: 80%;;
+    max-width: none;
   }
 
   .staff-card {
@@ -698,23 +699,22 @@ footer a:hover { color: var(--white); }
 .lead{max-width: 70ch; font-size: 1.05rem; line-height: 1.6; opacity: 0.95;}
 .about{max-width: 75ch;}
 
-/* Research page: show figure BELOW text (large) */
 .research-item .research-body {
-  display: block;          /* ← 横並びをやめる */
+  display: block;
   margin-top: 12px;
 }
 
 .research-item .research-img {
-  margin-top: 18px;        /* ← テキストとの間隔 */
+  margin: 24px auto 0;     /* ← 中央寄せ */
+  text-align: center;
 }
 
 .research-item .research-img img {
-  width: 100%;             /* ← コンテナ幅いっぱい */
-  max-width: 960px;        /* ← ここは container(--max-w) と揃える */
+  width: 80%;              /* ← ここがポイント */
+  max-width: 760px;        /* ← 上限 */
   height: auto;
-  display: block;
+  display: inline-block;
   border-radius: 6px;
 }
-
 
 
