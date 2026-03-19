@@ -1,35 +1,58 @@
 <!DOCTYPE html>
-
 <html lang="ja">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>研究内容｜スマートシステム研究室</title>
 <link href="../css/style.css" rel="noopener noreferrer stylesheet"/>
-<meta content="Smart Systems Laboratory (Toyohashi University of Technology). Research on edge computing, networking, and smart systems." name="description"/><meta content="website" property="og:type"/><meta content="Smart Systems Laboratory" property="og:site_name"/><meta content="研究内容｜スマートシステム研究室" property="og:title"/><meta content="Smart Systems Laboratory (Toyohashi University of Technology). Research on edge computing, networking, and smart systems." property="og:description"/><meta content="/images/ogp.png" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="研究内容｜スマートシステム研究室" name="twitter:title"/><meta content="Smart Systems Laboratory (Toyohashi University of Technology). Research on edge computing, networking, and smart systems." name="twitter:description"/><meta content="/images/ogp.png" name="twitter:image"/><link href="/images/ogp.png" rel="icon noopener noreferrer" type="image/png"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Smart Systems Laboratory", "alternateName": "スマートシステム研究室", "url": "", "logo": "/images/ogp.png", "parentOrganization": {"@type": "CollegeOrUniversity", "name": "Toyohashi University of Technology", "alternateName": "豊橋技術科学大学"}}</script></head>
+<meta content="スマートシステム研究室（豊橋技術科学大学）。Adaptive Edge Intelligence、通信・分散システム設計、実世界応用に関する研究。" name="description"/>
+<meta content="website" property="og:type"/>
+<meta content="Smart Systems Laboratory" property="og:site_name"/>
+<meta content="研究内容｜スマートシステム研究室" property="og:title"/>
+<meta content="スマートシステム研究室（豊橋技術科学大学）。Adaptive Edge Intelligence、通信・分散システム設計、実世界応用に関する研究。" property="og:description"/>
+<meta content="/images/ogp.png" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="研究内容｜スマートシステム研究室" name="twitter:title"/>
+<meta content="スマートシステム研究室（豊橋技術科学大学）。Adaptive Edge Intelligence、通信・分散システム設計、実世界応用に関する研究。" name="twitter:description"/>
+<meta content="/images/ogp.png" name="twitter:image"/>
+<link href="/images/ogp.png" rel="icon noopener noreferrer" type="image/png"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Smart Systems Laboratory",
+  "alternateName": "スマートシステム研究室",
+  "url": "",
+  "logo": "/images/ogp.png",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "Toyohashi University of Technology",
+    "alternateName": "豊橋技術科学大学"
+  }
+}
+</script>
+</head>
 <body>
 <div class="site-wrapper">
 <div id="site-header"></div>
+
 <main>
   <div class="container">
     <div class="page-heading"><h1>研究内容</h1></div>
-    <p style="font-size:14px;line-height:1.9;margin-bottom:28px;">
-      当研究室では、制約のある環境（計算資源・通信状況・プライバシー要件）に適応して
-      動作するAIの設計を中心に研究を行っています。Edgeデバイス上での実行を前提に、
-      通信ネットワークや実環境アプリケーションと連携しながら、低遅延・省電力・プライバシー・レジリエンスと
-      いった現場要件を満たすシステムを実現します。
-      本研究は、AI・通信・システムを分離せず、環境に応じて統合的に最適化することを目的としています。
+
+    <p style="font-size:14px; line-height:1.9; margin-bottom:28px;">
+      当研究室では、制約のある現実環境で確実に動作する知能システムの実現を目指しています。特に、Edgeデバイス上で動作するAIを中核に、通信・分散システム・実世界アプリケーションを分離せず、統合的に設計することを重視しています。限られた計算資源、通信帯域、エネルギー、プライバシー要件の下で、必要な情報を選択し、必要な処理を適切に分担しながら、現場で役立つシステムを構築します。
     </p>
 
     <div class="research-item" id="foundation">
       <h3 class="sub-title">Adaptive Edge Intelligence（中核）</h3>
       <div class="research-body">
         <div>
-          <p><b>Objective</b>：センサ／デバイス上での実行を前提に、制約（計算資源・通信・プライバシー）に適応して動作する知能を実現する。</p>
-          <p><b>Novelty</b>：ネットワーク状態やリソース制約に応じて、モデル／表現／処理分担を動的に最適化する設計指針を確立する。</p>
-          <p><b>Methods</b>：軽量化（蒸留・量子化など）、分散協調（エッジ—クラウド協調、フェデレーテッド学習等）、不確実性を考慮した推論・制御。</p>
-          <p><b>Results</b>：実装可能性（リアルタイム性、計算量、エネルギー）を満たすプロトタイプと、シミュレーション／小規模デモによる評価。</p>
-          <p><b>Next</b>：通信環境や応用要件と連携した「状況適応型」AIへ拡張し、多様な実環境へ横展開する。</p>
+          <p><b>Objective</b>：センサ／デバイス上での実行を前提に、現実環境の制約の下でも動作可能な知能を実現する。</p>
+          <p><b>Novelty</b>：ネットワーク状態やリソース制約に応じて、モデル、表現、処理分担を動的に最適化する設計指針を確立する。</p>
+          <p><b>Methods</b>：軽量化（蒸留・量子化など）、オンデバイス推論・学習、エッジ—クラウド協調、フェデレーテッド学習、不確実性を考慮した推論・制御。</p>
+          <p><b>Results</b>：リアルタイム性、計算量、エネルギー制約を満たすプロトタイプを構築し、シミュレーションや小規模デモで評価する。</p>
+          <p><b>Next</b>：通信環境やシステム設計と連携しながら、より広い実環境で機能する知能システムへ拡張する。</p>
 
           <p class="kw-label" style="margin-top:14px;">キーワード</p>
           <p class="kw-list">Edge AI, On-device inference/learning, Model compression, Edge–cloud collaboration, Federated learning, Privacy-aware AI</p>
@@ -41,38 +64,41 @@
     </div>
 
     <div class="research-item" id="network-aware-ai">
-      <h3 class="sub-title">Network-Aware AI（適応先①）</h3>
+      <h3 class="sub-title">通信・分散システム設計</h3>
       <div class="research-body">
         <div>
-          <p><b>Objective</b>：通信環境（帯域・遅延・変動）に応じて、AIの処理分担や表現を最適化する手法を設計する。</p>
-          <p><b>Novelty</b>：通信（QoS/QoE）と推論・制御・最適化を同時に扱い、障害・輻輳・変動に強いレジリエントな運用を実現する。</p>
-          <p><b>Methods</b>：分散最適化・強化学習・GNN等を用いた資源制御、ネットワークスライシング／サービス連鎖（SFC）配置など。</p>
-          <p><b>Results</b>：ネットワーク条件下での性能（遅延・信頼性・コスト）の定量評価と、運用ポリシー設計の体系化。</p>
-          <p><b>Next</b>：通信状況に応じてAIの処理分担・表現を動的に最適化する統合的な設計へ拡張する。</p>
+          <p><b>Objective</b>：AI、通信、分散制御を一体として扱い、障害や変動に強いネットワーク／分散システムを設計する。</p>
+          <p><b>Novelty</b>：通信を単なる制約条件としてではなく、設計対象として捉え、推論・制御・最適化と統合することでレジリエントな運用を実現する。</p>
+          <p><b>Methods</b>：分散最適化、強化学習、GNN等を用いた資源制御、トラフィック工学、ネットワークスライシング／サービス連鎖（SFC）配置、協調型の分散システム設計。</p>
+          <p><b>Results</b>：ネットワーク条件下での遅延・信頼性・コストの定量評価と、運用ポリシー設計の体系化を行う。</p>
+          <p><b>Next</b>：Adaptive Edge Intelligenceと統合し、通信・分散システム・知能を一体として最適化する設計へ発展させる。</p>
 
           <p class="kw-label" style="margin-top:14px;">キーワード</p>
-          <p class="kw-list">Network-aware AI, Distributed systems, Resilience, QoS/QoE, Distributed optimization, Traffic engineering, SFC placement</p>
+          <p class="kw-list">Distributed systems, Resilience, Networked systems, QoS/QoE, Distributed optimization, Traffic engineering, SFC placement</p>
         </div>
-        <p style="font-size:12px;color:#666;margin-top:10px;">
-            ※図は災害・エネルギー分野における適用例（networked micro-grids, CCN等）を示しています。</p>
+
+        <p style="font-size:12px; color:#666; margin-top:10px;">
+          ※図は災害・エネルギー分野における適用例（networked micro-grids, CCN等）を示しています。
+        </p>
+
         <div class="research-img">
-          <img src="../images/placeholder-smart-grid.png" alt="Network-Aware AI placeholder figure" />
+          <img src="../images/placeholder-smart-grid.png" alt="Networked and resilient systems placeholder figure" />
         </div>
       </div>
     </div>
 
     <div class="research-item" id="applications">
-      <h3 class="sub-title">Real-World Applications（適応先②）</h3>
+      <h3 class="sub-title">実世界応用</h3>
       <div class="research-body">
         <div>
-          <p><b>Objective</b>：高齢者支援（見守り・転倒検知・ADL推定等）や現場IoTにおいて、現実の制約下で確実に動くスマートシステムを構築する。</p>
-          <p><b>Novelty</b>：異種センサを共通の意味表現へ写像し、欠損・非IID・プライバシー制約に強い学習を実現する。</p>
-          <p><b>Methods</b>：セマンティック表現学習、プライバシー保護型学習、エッジ側でのリアルタイム推論、運用条件に応じた適応。</p>
-          <p><b>Results</b>：公開データ／シミュレーションを中心に、現場導入を見据えた小規模実証（プロトタイピング）で妥当性を確認する。</p>
-          <p><b>Next</b>：分散制御・レジリエンス設計の知見を応用し、災害時・混雑時にも破綻しない見守り基盤を目指す。</p>
+          <p><b>Objective</b>：高齢者支援、IoT、災害対応、インフラ運用などの実環境において、現実の制約下でも動作するスマートシステムを構築する。</p>
+          <p><b>Novelty</b>：異種センサを共通の意味表現へ写像し、欠損、非IID、プライバシー制約に強い学習を実現しながら、実運用を見据えたシステム設計につなげる。</p>
+          <p><b>Methods</b>：セマンティック表現学習、プライバシー保護型学習、エッジ側でのリアルタイム推論、通信・システム条件と連携した適応的運用。</p>
+          <p><b>Results</b>：公開データ、シミュレーション、小規模実証を通じて、現場導入に向けた妥当性を確認する。</p>
+          <p><b>Next</b>：災害、混雑、インフラ障害などの攪乱下でも機能し続けるレジリエントな実世界システムへ発展させる。</p>
 
           <p class="kw-label" style="margin-top:14px;">キーワード</p>
-          <p class="kw-list">AgeTech, Assistive technologies, IoT sensing, Activity recognition, Fall detection, Semantic representation, Privacy-preserving learning</p>
+          <p class="kw-list">AgeTech, Assistive technologies, IoT sensing, Activity recognition, Fall detection, Semantic representation, Privacy-preserving learning, Disaster resilience</p>
         </div>
         <div class="research-img">
           <img src="../images/placeholder-agetech.png" alt="Real-World Applications placeholder figure" />

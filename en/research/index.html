@@ -1,35 +1,69 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Research | Smart Systems Laboratory</title>
-<link href="../../css/style.css" rel="noopener noreferrer stylesheet"/>
-<meta content="Research topics of the Smart Systems Laboratory: Edge AI as a foundation, smart grid networks and distributed systems, and applications in AgeTech and IoT." name="description"/><meta content="website" property="og:type"/><meta content="Smart Systems Laboratory" property="og:site_name"/><meta content="Research | Smart Systems Laboratory" property="og:title"/><meta content="Smart Systems Laboratory (Toyohashi University of Technology). Research on edge computing, networking, and smart systems." property="og:description"/><meta content="/images/ogp.png" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="Research | Smart Systems Laboratory" name="twitter:title"/><meta content="Smart Systems Laboratory (Toyohashi University of Technology). Research on edge computing, networking, and smart systems." name="twitter:description"/><meta content="/images/ogp.png" name="twitter:image"/><link href="/images/ogp.png" rel="icon noopener noreferrer" type="image/png"/><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Smart Systems Laboratory", "alternateName": "スマートシステム研究室", "url": "", "logo": "/images/ogp.png", "parentOrganization": {"@type": "CollegeOrUniversity", "name": "Toyohashi University of Technology", "alternateName": "豊橋技術科学大学"}}</script></head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Research | Smart Systems Laboratory</title>
+  <link href="../../css/style.css" rel="noopener noreferrer stylesheet"/>
+  <meta content="Research topics of the Smart Systems Laboratory: Adaptive Edge Intelligence, networked and resilient systems, and real-world applications." name="description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="Smart Systems Laboratory" property="og:site_name"/>
+  <meta content="Research | Smart Systems Laboratory" property="og:title"/>
+  <meta content="Smart Systems Laboratory (Toyohashi University of Technology). Research on adaptive edge intelligence, networked systems, and real-world applications." property="og:description"/>
+  <meta content="/images/ogp.png" property="og:image"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="Research | Smart Systems Laboratory" name="twitter:title"/>
+  <meta content="Smart Systems Laboratory (Toyohashi University of Technology). Research on adaptive edge intelligence, networked systems, and real-world applications." name="twitter:description"/>
+  <meta content="/images/ogp.png" name="twitter:image"/>
+  <link href="/images/ogp.png" rel="icon noopener noreferrer" type="image/png"/>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Smart Systems Laboratory",
+      "alternateName": "スマートシステム研究室",
+      "url": "",
+      "logo": "/images/ogp.png",
+      "parentOrganization": {
+        "@type": "CollegeOrUniversity",
+        "name": "Toyohashi University of Technology",
+        "alternateName": "豊橋技術科学大学"
+      }
+    }
+  </script>
+
+  <style>
+    .research-body p,
+    .container > p {
+      text-align: left;
+      line-height: 1.9;
+    }
+  </style>
+</head>
 <body>
 <div class="site-wrapper">
 <div id="site-header"></div>
+
 <main>
   <div class="container">
     <div class="page-heading"><h1>Research</h1></div>
 
-    <p style="font-size:14px; line-height:1.9; margin-bottom:28px; text-align:justify; text-justify:inter-word;">
-      Our research focuses on designing AI systems that operate effectively under constrained environments, including limited computation, communication bandwidth, and privacy requirements. We assume execution on edge devices and develop methods that adapt AI behavior to network conditions and real-world application demands. Rather than treating computing, communication, and AI separately, we aim to jointly optimize them in an integrated manner.
+    <p style="font-size:14px; margin-bottom:28px;">
+      Our research focuses on designing AI systems that operate effectively under constrained environments, including limited computation, communication bandwidth, energy, and privacy requirements. We assume execution on edge devices and develop methods that integrate AI, communication, and systems design for practical deployment. Rather than treating computing, communication, and AI separately, we aim to jointly optimize them in an integrated manner.
     </p>
 
     <div class="research-item" id="adaptive-edge">
       <h3 class="sub-title">Adaptive Edge Intelligence (Core)</h3>
       <div class="research-body">
         <div>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Objective</b>: To realize intelligent systems that operate directly on devices and adapt to constraints such as computation, and communication.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Novelty</b>: Establish design principles that dynamically optimize models, representations, and computation partitioning based on resource and network conditions.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Methods</b>: Model compression, edge-cloud collaboration, federated learning, and uncertainty-aware inference and control.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Results</b>: Prototypes satisfying real-time performance, computational efficiency, and energy constraints, validated via simulation and small-scale demonstrations.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Next</b>: Extend toward context-adaptive AI that integrates communication and application requirements.</p>
+          <p><b>Objective</b>: To realize intelligent systems that operate on edge devices under real-world constraints such as limited computation, communication, energy, and privacy requirements.</p>
+          <p><b>Novelty</b>: Establish design principles that dynamically optimize models, representations, and computation partitioning based on resource and network conditions.</p>
+          <p><b>Methods</b>: Model compression, on-device inference and learning, edge-cloud collaboration, federated learning, and uncertainty-aware inference and control.</p>
+          <p><b>Results</b>: Prototypes satisfying real-time performance, computational efficiency, and energy constraints, validated via simulation and small-scale demonstrations.</p>
+          <p><b>Next</b>: Extend toward AI systems that coordinate with communication environments and broader system-level design.</p>
 
           <p class="kw-label" style="margin-top:14px;">Keywords</p>
-          <p class="kw-list" style="text-align:justify; text-justify:inter-word;">
+          <p class="kw-list">
             Edge AI, On-device inference, Model compression, Edge-cloud collaboration, Federated learning, Privacy-aware AI
           </p>
         </div>
@@ -37,34 +71,34 @@
         <div class="research-img">
           <img src="../../images/placeholder-edge-ai.png" alt="Adaptive Edge Intelligence illustration" />
           <p style="font-size:12px; color:#666; margin-top:6px; text-align:center;">
-            Concept: AI adapts to device constraints and execution environments
+            Concept: AI operating on edge devices under real-world constraints
           </p>
         </div>
       </div>
     </div>
 
-    <div class="research-item" id="network-aware">
-      <h3 class="sub-title">Network-Aware AI (Adaptation Target 1)</h3>
+    <div class="research-item" id="networked-systems">
+      <h3 class="sub-title">Networked / Resilient Systems</h3>
       <div class="research-body">
         <div>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Objective</b>: To design AI systems that optimize computation and representation based on dynamic network conditions.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Novelty</b>: Jointly consider communication, inference, and control to enable resilient operation under failures, congestion, and variability.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Methods</b>: Distributed optimization, reinforcement learning, graph neural networks (GNN), and service function chain (SFC) placement.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Results</b>: Quantitative evaluation of latency, reliability, and cost under network constraints, along with systematic design of adaptive policies.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Next</b>: Develop unified frameworks that dynamically optimize computation, communication, and information representation.</p>
+          <p><b>Objective</b>: To design communication-aware and resilient systems in which AI, networking, and distributed control are jointly optimized.</p>
+          <p><b>Novelty</b>: Treat communication not only as a constraint, but also as a design target, enabling resilient operation under failures, congestion, and environmental variability.</p>
+          <p><b>Methods</b>: Distributed optimization, reinforcement learning, graph neural networks (GNN), service function chain (SFC) placement, and system-level coordination in networked environments.</p>
+          <p><b>Results</b>: Quantitative evaluation of latency, reliability, and operational cost, together with systematic design of adaptive and resilient control policies.</p>
+          <p><b>Next</b>: Develop unified frameworks that integrate adaptive edge AI with networked and resilient system design.</p>
 
           <p class="kw-label" style="margin-top:14px;">Keywords</p>
-          <p class="kw-list" style="text-align:justify; text-justify:inter-word;">
-            Network-aware AI, Distributed systems, Resilience, QoS/QoE, Distributed optimization, Traffic engineering, SFC placement
+          <p class="kw-list">
+            Distributed systems, Resilience, Networked systems, QoS/QoE, Distributed optimization, Traffic engineering, SFC placement
           </p>
 
-          <p style="font-size:12px; color:#666; margin-top:10px; text-align:justify; text-justify:inter-word;">
-            Note: The figure illustrates an example application in disaster-resilient networked systems (e.g., micro-grids and information-centric networking).
+          <p style="font-size:12px; color:#666; margin-top:10px;">
+            Note: The figure illustrates an example in disaster-resilient networked systems, including micro-grids and information-centric networking.
           </p>
         </div>
 
         <div class="research-img">
-          <img src="../../images/placeholder-smart-grid.png" alt="Network-Aware AI example" />
+          <img src="../../images/placeholder-smart-grid.png" alt="Networked and resilient systems example" />
           <p style="font-size:12px; color:#666; margin-top:6px; text-align:center;">
             Example: Disaster-Resilient Networked Systems (Micro-grid / CCN)
           </p>
@@ -73,18 +107,18 @@
     </div>
 
     <div class="research-item" id="applications">
-      <h3 class="sub-title">Real-World Applications (Adaptation Target 2)</h3>
+      <h3 class="sub-title">Real-World Applications</h3>
       <div class="research-body">
         <div>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Objective</b>: To build practical intelligent systems for real-world environments such as AgeTech and IoT under realistic constraints.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Novelty</b>: Map heterogeneous sensor data (e.g., LiDAR, microwave, pressure sensors) into shared semantic representations robust to missing data, non-IID conditions, and privacy constraints.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Methods</b>: Semantic representation learning, privacy-preserving learning, real-time edge inference, and adaptive operation based on network and energy conditions.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Results</b>: Validation through public datasets, simulation, and small-scale prototyping toward real deployment.</p>
-          <p style="text-align:justify; text-justify:inter-word;"><b>Next</b>: Extend toward resilient systems that remain functional under disruptions such as disasters or network congestion.</p>
+          <p><b>Objective</b>: To build practical intelligent systems for real-world environments such as AgeTech, IoT, disaster response, and infrastructure operation.</p>
+          <p><b>Novelty</b>: Map heterogeneous sensor data into shared semantic representations robust to missing data, non-IID conditions, and privacy constraints, while enabling deployable system design in realistic environments.</p>
+          <p><b>Methods</b>: Semantic representation learning, privacy-preserving learning, real-time edge inference, and adaptive operation in conjunction with communication and system conditions.</p>
+          <p><b>Results</b>: Validation through public datasets, simulation, and small-scale prototyping toward practical deployment.</p>
+          <p><b>Next</b>: Extend toward resilient real-world systems that remain functional under disruptions such as disasters, congestion, and infrastructure stress.</p>
 
           <p class="kw-label" style="margin-top:14px;">Keywords</p>
-          <p class="kw-list" style="text-align:justify; text-justify:inter-word;">
-            AgeTech, Assistive technologies, IoT sensing, Activity recognition, Fall detection, Semantic representation, Privacy-preserving learning
+          <p class="kw-list">
+            AgeTech, Assistive technologies, IoT sensing, Activity recognition, Fall detection, Semantic representation, Privacy-preserving learning, Disaster resilience
           </p>
         </div>
 
