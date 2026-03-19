@@ -11,76 +11,81 @@
 <div class="site-wrapper">
 <div id="site-header"></div>
 <main>
-<div class="container">
-  <div class="page-heading"><h1>研究内容</h1></div>
-  <p style="font-size:14px;line-height:1.9;margin-bottom:28px;">
-    当研究室では、<b>Edge AI（オンデバイス知能）を基盤</b>として、通信ネットワークを核にしたスマートグリッド／分散システムの設計と、
-    AgeTech・IoTなどの実環境アプリケーションに展開する研究を行っています。低遅延・省電力・プライバシー・レジリエンスといった現場要件を満たすために、
-    コンピューティング／コミュニケーション／AIの統合を重視します。
-  </p>
+  <div class="container">
+    <div class="page-heading"><h1>研究内容</h1></div>
+    <p style="font-size:14px;line-height:1.9;margin-bottom:28px;">
+      当研究室では、制約のある環境（計算資源・通信状況・プライバシー要件）に適応して
+      動作するAIの設計を中心に研究を行っています。Edgeデバイス上での実行を前提に、
+      通信ネットワークや実環境アプリケーションと連携しながら、低遅延・省電力・プライバシー・レジリエンスと
+      いった現場要件を満たすシステムを実現します。
+      本研究は、AI・通信・システムを分離せず、環境に応じて統合的に最適化することを目的としています。
+    </p>
 
-  <div class="research-item" id="foundation">
-    <h3 class="sub-title">Foundation：Edge AI（オンデバイス知能）</h3>
-    <div class="research-body">
-      <div>
-        <p><b>Objective</b>：センサ／デバイス上での推論・学習を中核に、低遅延・省電力・プライバシーを両立する知能を実現する。</p>
-        <p><b>Novelty</b>：ネットワーク状態やリソース制約に応じて、モデル／表現／処理分担を動的に最適化する設計指針を確立する。</p>
-        <p><b>Methods</b>：軽量化（蒸留・量子化など）、分散協調（エッジ—クラウド協調、フェデレーテッド学習等）、不確実性を考慮した推論・制御。</p>
-        <p><b>Results</b>：実装可能性（リアルタイム性、計算量、エネルギー）を満たすプロトタイプと、シミュレーション／小規模デモによる評価。</p>
-        <p><b>Next</b>：ネットワークと連携した「状況適応型」Edge AI（network-aware AI）へ拡張し、応用領域へ横展開する。</p>
+    <div class="research-item" id="foundation">
+      <h3 class="sub-title">Adaptive Edge Intelligence（中核）</h3>
+      <div class="research-body">
+        <div>
+          <p><b>Objective</b>：センサ／デバイス上での実行を前提に、制約（計算資源・通信・プライバシー）に適応して動作する知能を実現する。</p>
+          <p><b>Novelty</b>：ネットワーク状態やリソース制約に応じて、モデル／表現／処理分担を動的に最適化する設計指針を確立する。</p>
+          <p><b>Methods</b>：軽量化（蒸留・量子化など）、分散協調（エッジ—クラウド協調、フェデレーテッド学習等）、不確実性を考慮した推論・制御。</p>
+          <p><b>Results</b>：実装可能性（リアルタイム性、計算量、エネルギー）を満たすプロトタイプと、シミュレーション／小規模デモによる評価。</p>
+          <p><b>Next</b>：通信環境や応用要件と連携した「状況適応型」AIへ拡張し、多様な実環境へ横展開する。</p>
 
-        <p class="kw-label" style="margin-top:14px;">キーワード</p>
-        <p class="kw-list">Edge AI, On-device inference/learning, Model compression, Edge–cloud collaboration, Federated learning, Privacy-aware AI</p>
+          <p class="kw-label" style="margin-top:14px;">キーワード</p>
+          <p class="kw-list">Edge AI, On-device inference/learning, Model compression, Edge–cloud collaboration, Federated learning, Privacy-aware AI</p>
+        </div>
+        <div class="research-img">
+          <img src="../images/placeholder-edge-ai.png" alt="Adaptive Edge Intelligence placeholder figure" />
+        </div>
       </div>
-      <div class="research-img">
-        <img src="../images/placeholder-edge-ai.png" alt="Edge AI placeholder figure"/>
+    </div>
+
+    <div class="research-item" id="network-aware-ai">
+      <h3 class="sub-title">Network-Aware AI（適応先①）</h3>
+      <div class="research-body">
+        <div>
+          <p><b>Objective</b>：通信環境（帯域・遅延・変動）に応じて、AIの処理分担や表現を最適化する手法を設計する。</p>
+          <p><b>Novelty</b>：通信（QoS/QoE）と推論・制御・最適化を同時に扱い、障害・輻輳・変動に強いレジリエントな運用を実現する。</p>
+          <p><b>Methods</b>：分散最適化・強化学習・GNN等を用いた資源制御、ネットワークスライシング／サービス連鎖（SFC）配置など。</p>
+          <p><b>Results</b>：ネットワーク条件下での性能（遅延・信頼性・コスト）の定量評価と、運用ポリシー設計の体系化。</p>
+          <p><b>Next</b>：通信状況に応じてAIの処理分担・表現を動的に最適化する統合的な設計へ拡張する。</p>
+
+          <p class="kw-label" style="margin-top:14px;">キーワード</p>
+          <p class="kw-list">Network-aware AI, Distributed systems, Resilience, QoS/QoE, Distributed optimization, Traffic engineering, SFC placement</p>
+        </div>
+        <p style="font-size:12px;color:#666;margin-top:10px;">
+            ※図は災害・エネルギー分野における適用例（networked micro-grids, CCN等）を示しています。</p>
+        <div class="research-img">
+          <img src="../images/placeholder-smart-grid.png" alt="Network-Aware AI placeholder figure" />
+        </div>
+      </div>
+    </div>
+
+    <div class="research-item" id="applications">
+      <h3 class="sub-title">Real-World Applications（適応先②）</h3>
+      <div class="research-body">
+        <div>
+          <p><b>Objective</b>：高齢者支援（見守り・転倒検知・ADL推定等）や現場IoTにおいて、現実の制約下で確実に動くスマートシステムを構築する。</p>
+          <p><b>Novelty</b>：異種センサを共通の意味表現へ写像し、欠損・非IID・プライバシー制約に強い学習を実現する。</p>
+          <p><b>Methods</b>：セマンティック表現学習、プライバシー保護型学習、エッジ側でのリアルタイム推論、運用条件に応じた適応。</p>
+          <p><b>Results</b>：公開データ／シミュレーションを中心に、現場導入を見据えた小規模実証（プロトタイピング）で妥当性を確認する。</p>
+          <p><b>Next</b>：分散制御・レジリエンス設計の知見を応用し、災害時・混雑時にも破綻しない見守り基盤を目指す。</p>
+
+          <p class="kw-label" style="margin-top:14px;">キーワード</p>
+          <p class="kw-list">AgeTech, Assistive technologies, IoT sensing, Activity recognition, Fall detection, Semantic representation, Privacy-preserving learning</p>
+        </div>
+        <div class="research-img">
+          <img src="../images/placeholder-agetech.png" alt="Real-World Applications placeholder figure" />
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="research-item" id="infrastructure">
-    <h3 class="sub-title">Infrastructure：Smart Grid Networks &amp; Distributed Systems（通信ネットワーク寄り）</h3>
-    <div class="research-body">
-      <div>
-        <p><b>Objective</b>：電力・都市インフラを支えるネットワーク化システムに対し、低遅延・高信頼・スケーラブルな通信・制御基盤を設計する。</p>
-        <p><b>Novelty</b>：通信（QoS/QoE）と制御・最適化を同時に扱い、障害・輻輳・変動に強いレジリエントな運用を実現する。</p>
-        <p><b>Methods</b>：分散最適化・強化学習・GNN等を用いた資源制御、トラフィック工学、ネットワークスライシング／サービス連鎖（SFC）配置など。</p>
-        <p><b>Results</b>：ネットワーク条件下での性能（遅延・信頼性・コスト）の定量評価と、運用ポリシー設計の体系化。</p>
-        <p><b>Next</b>：Edge AI基盤と統合し、ネットワーク状況に応じて処理分担・表現を最適化する統合アーキテクチャへ。</p>
-
-        <p class="kw-label" style="margin-top:14px;">キーワード</p>
-        <p class="kw-list">Smart grid networks, Distributed systems, Resilience, QoS/QoE, Distributed optimization, Traffic engineering, SFC placement</p>
-      </div>
-      <div class="research-img">
-        <img src="../images/placeholder-smart-grid.png" alt="Smart Grid Networks placeholder figure"/>
-      </div>
-    </div>
-  </div>
-
-  <div class="research-item" id="applications">
-    <h3 class="sub-title">Applications：AgeTech / IoT（現場課題への社会実装）</h3>
-    <div class="research-body">
-      <div>
-        <p><b>Objective</b>：高齢者支援（見守り・転倒検知・ADL推定等）や現場IoTにおいて、現実の制約下で確実に動くスマートシステムを構築する。</p>
-        <p><b>Novelty</b>：異種センサ（2D LiDAR、マイクロ波、人感、圧力など）を共通の意味表現へ写像し、欠損・非IID・プライバシー制約に強い学習を実現する。</p>
-        <p><b>Methods</b>：セマンティック表現学習、プライバシー保護型学習、エッジ側でのリアルタイム推論、運用条件に応じた適応（通信品質・省電力）。</p>
-        <p><b>Results</b>：公開データ／シミュレーションを中心に、現場導入を見据えた小規模実証（プロトタイピング）で妥当性を確認する。</p>
-        <p><b>Next</b>：Smart Grid Networksで培った分散制御・レジリエンス設計を応用し、災害時・混雑時にも破綻しない見守り基盤を目指す。</p>
-
-        <p class="kw-label" style="margin-top:14px;">キーワード</p>
-        <p class="kw-list">AgeTech, Assistive technologies, IoT sensing, Activity recognition, Fall detection, Semantic representation, Privacy-preserving learning</p>
-      </div>
-      <div class="research-img">
-        <img src="../images/placeholder-agetech.png" alt="AgeTech/IoT placeholder figure"/>
-      </div>
-    </div>
-  </div>
-</div>
 </main>
+
 <div id="site-footer"></div>
 </div>
-  <script src="/js/site-config.js" defer></script>
-  <script src="/js/seo-runtime.js" defer></script>
-  <script src="/js/site-render.js" defer></script>
+<script src="/js/site-config.js" defer></script>
+<script src="/js/seo-runtime.js" defer></script>
+<script src="/js/site-render.js" defer></script>
 </body>
 </html>

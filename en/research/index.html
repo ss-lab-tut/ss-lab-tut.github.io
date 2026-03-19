@@ -11,66 +11,99 @@
 <div class="site-wrapper">
 <div id="site-header"></div>
 <main>
-<div class="container">
-<div class="page-heading"><h1>Research</h1></div>
-<p style="font-size:14px;line-height:1.9;margin-bottom:28px;">We take Edge AI (on-device intelligence) as our foundation, and extend it to communication-centric smart grid networks and distributed systems, as well as real-world applications in AgeTech and IoT. We pursue integrated design across computing, communication, and AI under practical constraints such as latency, energy, privacy, and resilience.</p>
-<div class="research-item" id="foundation">
-<h3 class="sub-title">Foundation: Edge AI &amp; On-device Intelligence</h3>
-<div class="research-body">
-<div>
-<p><b>Objective</b>: Enable low-latency, energy-efficient, privacy-aware intelligence on sensors and edge devices.</p>
-<p><b>Novelty</b>: Establish design principles for dynamically optimizing models, representations, and task partitioning under resource and network constraints.</p>
-<p><b>Methods</b>: Model compression (distillation/quantization), edge–cloud collaboration, federated learning, and uncertainty-aware inference/control.</p>
-<p><b>Results</b>: Implementable prototypes and evaluations via simulations and small-scale demonstrations.</p>
-<p><b>Next</b>: Advance toward network-aware Edge AI that adapts to changing network conditions and deployments.</p>
-<p class="kw-label" style="margin-top:14px;">Keywords</p>
-<p class="kw-list">Edge AI, On-device inference/learning, Model compression, Edge–cloud collaboration, Federated learning, Privacy-aware AI</p>
-</div>
-      <div class="research-img">
-        <img src="../../images/placeholder-edge-ai.png" alt="Edge AI placeholder figure"/>
+  <div class="container">
+    <div class="page-heading"><h1>Research</h1></div>
+
+    <p style="font-size:14px; line-height:1.9; margin-bottom:28px; text-align:justify; text-justify:inter-word;">
+      Our research focuses on designing AI systems that operate effectively under constrained environments, including limited computation, communication bandwidth, and privacy requirements. We assume execution on edge devices and develop methods that adapt AI behavior to network conditions and real-world application demands. Rather than treating computing, communication, and AI separately, we aim to jointly optimize them in an integrated manner.
+    </p>
+
+    <div class="research-item" id="adaptive-edge">
+      <h3 class="sub-title">Adaptive Edge Intelligence (Core)</h3>
+      <div class="research-body">
+        <div>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Objective</b>: To realize intelligent systems that operate directly on devices and adapt to constraints such as computation, and communication.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Novelty</b>: Establish design principles that dynamically optimize models, representations, and computation partitioning based on resource and network conditions.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Methods</b>: Model compression, edge-cloud collaboration, federated learning, and uncertainty-aware inference and control.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Results</b>: Prototypes satisfying real-time performance, computational efficiency, and energy constraints, validated via simulation and small-scale demonstrations.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Next</b>: Extend toward context-adaptive AI that integrates communication and application requirements.</p>
+
+          <p class="kw-label" style="margin-top:14px;">Keywords</p>
+          <p class="kw-list" style="text-align:justify; text-justify:inter-word;">
+            Edge AI, On-device inference, Model compression, Edge-cloud collaboration, Federated learning, Privacy-aware AI
+          </p>
+        </div>
+
+        <div class="research-img">
+          <img src="../../images/placeholder-edge-ai.png" alt="Adaptive Edge Intelligence illustration" />
+          <p style="font-size:12px; color:#666; margin-top:6px; text-align:center;">
+            Concept: AI adapts to device constraints and execution environments
+          </p>
+        </div>
       </div>
-</div>
-</div>
-<div class="research-item" id="infrastructure">
-<h3 class="sub-title">Infrastructure: Smart Grid Networks &amp; Distributed Systems (Communication-centric)</h3>
-<div class="research-body">
-<div>
-<p><b>Objective</b>: Design scalable communication and control foundations for networked infrastructures with low latency and high reliability.</p>
-<p><b>Novelty</b>: Jointly consider communication (QoS/QoE) with control/optimization to achieve resilient operation under failures, congestion, and dynamics.</p>
-<p><b>Methods</b>: Distributed optimization, reinforcement learning, GNN-based control, traffic engineering, network slicing, and service function chaining (SFC) placement.</p>
-<p><b>Results</b>: Quantitative evaluations (latency/reliability/cost) under network constraints and systematic policy design.</p>
-<p><b>Next</b>: Integrate with the Edge AI foundation for unified architectures that optimize task partitioning and representations.</p>
-<p class="kw-label" style="margin-top:14px;">Keywords</p>
-<p class="kw-list">Smart grid networks, Distributed systems, Resilience, QoS/QoE, Distributed optimization, Traffic engineering, SFC placement</p>
-</div>
-      <div class="research-img">
-        <img src="../../images/placeholder-smart-grid.png" alt="Smart Grid Networks placeholder figure"/>
+    </div>
+
+    <div class="research-item" id="network-aware">
+      <h3 class="sub-title">Network-Aware AI (Adaptation Target 1)</h3>
+      <div class="research-body">
+        <div>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Objective</b>: To design AI systems that optimize computation and representation based on dynamic network conditions.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Novelty</b>: Jointly consider communication, inference, and control to enable resilient operation under failures, congestion, and variability.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Methods</b>: Distributed optimization, reinforcement learning, graph neural networks (GNN), and service function chain (SFC) placement.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Results</b>: Quantitative evaluation of latency, reliability, and cost under network constraints, along with systematic design of adaptive policies.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Next</b>: Develop unified frameworks that dynamically optimize computation, communication, and information representation.</p>
+
+          <p class="kw-label" style="margin-top:14px;">Keywords</p>
+          <p class="kw-list" style="text-align:justify; text-justify:inter-word;">
+            Network-aware AI, Distributed systems, Resilience, QoS/QoE, Distributed optimization, Traffic engineering, SFC placement
+          </p>
+
+          <p style="font-size:12px; color:#666; margin-top:10px; text-align:justify; text-justify:inter-word;">
+            Note: The figure illustrates an example application in disaster-resilient networked systems (e.g., micro-grids and information-centric networking).
+          </p>
+        </div>
+
+        <div class="research-img">
+          <img src="../../images/placeholder-smart-grid.png" alt="Network-Aware AI example" />
+          <p style="font-size:12px; color:#666; margin-top:6px; text-align:center;">
+            Example: Disaster-Resilient Networked Systems (Micro-grid / CCN)
+          </p>
+        </div>
       </div>
-</div>
-</div>
-<div class="research-item" id="applications">
-<h3 class="sub-title">Applications: AgeTech / IoT (Real-world Impact)</h3>
-<div class="research-body">
-<div>
-<p><b>Objective</b>: Build dependable smart systems for AgeTech (monitoring/assistance) and field IoT under real constraints.</p>
-<p><b>Novelty</b>: Map heterogeneous sensors into a shared semantic representation and handle missingness, non-IID, and privacy constraints robustly.</p>
-<p><b>Methods</b>: Semantic representation learning, privacy-preserving learning, real-time edge inference, and adaptive operation under varying network quality.</p>
-<p><b>Results</b>: Validation mainly through open datasets/simulations, complemented by small-scale prototypes.</p>
-<p><b>Next</b>: Bring resilience and distributed control principles into deployments that remain robust during disasters and congestion.</p>
-<p class="kw-label" style="margin-top:14px;">Keywords</p>
-<p class="kw-list">AgeTech, Assistive technologies, IoT sensing, Activity recognition, Fall detection, Semantic representation, Privacy-preserving learning</p>
-</div>
-      <div class="research-img">
-        <img src="../../images/placeholder-agetech.png" alt="AgeTech/IoT placeholder figure"/>
+    </div>
+
+    <div class="research-item" id="applications">
+      <h3 class="sub-title">Real-World Applications (Adaptation Target 2)</h3>
+      <div class="research-body">
+        <div>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Objective</b>: To build practical intelligent systems for real-world environments such as AgeTech and IoT under realistic constraints.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Novelty</b>: Map heterogeneous sensor data (e.g., LiDAR, microwave, pressure sensors) into shared semantic representations robust to missing data, non-IID conditions, and privacy constraints.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Methods</b>: Semantic representation learning, privacy-preserving learning, real-time edge inference, and adaptive operation based on network and energy conditions.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Results</b>: Validation through public datasets, simulation, and small-scale prototyping toward real deployment.</p>
+          <p style="text-align:justify; text-justify:inter-word;"><b>Next</b>: Extend toward resilient systems that remain functional under disruptions such as disasters or network congestion.</p>
+
+          <p class="kw-label" style="margin-top:14px;">Keywords</p>
+          <p class="kw-list" style="text-align:justify; text-justify:inter-word;">
+            AgeTech, Assistive technologies, IoT sensing, Activity recognition, Fall detection, Semantic representation, Privacy-preserving learning
+          </p>
+        </div>
+
+        <div class="research-img">
+          <img src="../../images/placeholder-agetech.png" alt="Real-world applications illustration" />
+          <p style="font-size:12px; color:#666; margin-top:6px; text-align:center;">
+            Example: Smart monitoring and assistive systems in real environments
+          </p>
+        </div>
       </div>
-</div>
-</div>
-</div>
+    </div>
+  </div>
 </main>
+
 <div id="site-footer"></div>
 </div>
-  <script src="/js/site-config.js" defer></script>
-  <script src="/js/seo-runtime.js" defer></script>
-  <script src="/js/site-render.js" defer></script>
+
+<script src="/js/site-config.js" defer></script>
+<script src="/js/seo-runtime.js" defer></script>
+<script src="/js/site-render.js" defer></script>
 </body>
 </html>
