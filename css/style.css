@@ -407,6 +407,10 @@ h3.sub-title {
   color: var(--blue);
 }
 
+.news-section--preview .news-table tr:nth-child(n+6) {
+  display: none;
+}
+
 /* --- Research page -------------------------------- */
 .research-item {
   margin-bottom: 48px;
