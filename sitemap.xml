@@ -1,57 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://YOUR-DOMAIN.example/</loc>
+    <loc>https://ss-lab-tut.github.io/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/access/</loc>
+    <loc>https://ss-lab-tut.github.io/access/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/en/</loc>
+    <loc>https://ss-lab-tut.github.io/gallery/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/en/access/</loc>
+    <loc>https://ss-lab-tut.github.io/generative-ai-policy/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/en/gallery/</loc>
+    <loc>https://ss-lab-tut.github.io/joinus/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/en/generative-ai-policy/</loc>
+    <loc>https://ss-lab-tut.github.io/link/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/en/joinus/</loc>
+    <loc>https://ss-lab-tut.github.io/news/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/en/link/</loc>
+    <loc>https://ss-lab-tut.github.io/people/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/en/people/</loc>
+    <loc>https://ss-lab-tut.github.io/publications/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/en/publications/</loc>
+    <loc>https://ss-lab-tut.github.io/research/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/en/research/</loc>
+    <loc>https://ss-lab-tut.github.io/en/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/gallery/</loc>
+    <loc>https://ss-lab-tut.github.io/en/access/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/generative-ai-policy/</loc>
+    <loc>https://ss-lab-tut.github.io/en/gallery/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/joinus/</loc>
+    <loc>https://ss-lab-tut.github.io/en/generative-ai-policy/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/link/</loc>
+    <loc>https://ss-lab-tut.github.io/en/joinus/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/people/</loc>
+    <loc>https://ss-lab-tut.github.io/en/link/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/publications/</loc>
+    <loc>https://ss-lab-tut.github.io/en/news/</loc>
   </url>
   <url>
-    <loc>https://YOUR-DOMAIN.example/research/</loc>
+    <loc>https://ss-lab-tut.github.io/en/people/</loc>
+  </url>
+  <url>
+    <loc>https://ss-lab-tut.github.io/en/publications/</loc>
+  </url>
+  <url>
+    <loc>https://ss-lab-tut.github.io/en/research/</loc>
   </url>
 </urlset>

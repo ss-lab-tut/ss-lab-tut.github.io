@@ -49,5 +49,17 @@
     // basic og/twitter URL
     upsertMeta('meta[property="og:url"]', { content: absoluteUrl(path) });
     upsertMeta('meta[name="twitter:url"]', { content: absoluteUrl(path) });
+
+    // JSON-LD: fill empty "url" with the site origin
+    const siteOrigin = absoluteUrl("/").replace(/\/$/, "");
+    document.querySelectorAll('script[type="application/ld+json"]').forEach((s) => {
+      try {
+        const data = JSON.parse(s.textContent);
+        if (data && data.url === "") {
+          data.url = siteOrigin;
+          s.textContent = JSON.stringify(data);
+        }
+      } catch (_) { /* ignore malformed JSON-LD */ }
+    });
   };
 })();

@@ -7,7 +7,7 @@
  * Edit this file when updating menus or lab info.
  */
 window.SS_SITE_CONFIG = {
-  heroImage: "/images/hero.png",
+  heroImage: "/images/hero.jpg",
 
   nav: {
     ja: [
