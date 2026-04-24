@@ -417,10 +417,6 @@ h3.sub-title {
 }
 
 .research-item .research-body {
-  display: grid;
-  grid-template-columns: 1fr 240px;
-  gap: 24px;
-  align-items: start;
   margin-top: 12px;
 }
 
@@ -430,9 +426,17 @@ h3.sub-title {
   color: #374151;
 }
 
+.research-item .research-img {
+  margin: 24px auto 0;
+  text-align: center;
+}
+
 .research-item .research-img img {
+  width: 80%;
+  max-width: 760px;
+  height: auto;
+  display: inline-block;
   border-radius: 6px;
-  width: 100%;
 }
 
 .kw-label {
@@ -581,15 +585,6 @@ footer a:hover { color: var(--white); }
   nav.main-nav { display: none; }
   .hamburger { display: flex; }
 
-  .research-item .research-body {
-    grid-template-columns: 1fr;
-  }
-
-  .research-item .research-img {
-    max-width: 80%;;
-    max-width: none;
-  }
-
   .staff-card {
     grid-template-columns: 140px 1fr;
   }
@@ -702,23 +697,3 @@ footer a:hover { color: var(--white); }
 /* EN tone unification helpers */
 .lead{max-width: 70ch; font-size: 1.05rem; line-height: 1.6; opacity: 0.95;}
 .about{max-width: 75ch;}
-
-.research-item .research-body {
-  display: block;
-  margin-top: 12px;
-}
-
-.research-item .research-img {
-  margin: 24px auto 0;     /* ← 中央寄せ */
-  text-align: center;
-}
-
-.research-item .research-img img {
-  width: 80%;              /* ← ここがポイント */
-  max-width: 760px;        /* ← 上限 */
-  height: auto;
-  display: inline-block;
-  border-radius: 6px;
-}
-
-
